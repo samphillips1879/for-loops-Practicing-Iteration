@@ -27,3 +27,75 @@ var prez = ["George Washington", "John Adams", "Thomas Jefferson", "Commander Fl
 for (i = 0; i < prez.length; i ++) {
 	console.log("President #" + (i + 1) + " was " + prez[i]);
 }
+
+
+
+
+
+console.log("object iteration");
+
+var antSpecies = {
+	argentine: {},
+	army: {},
+	bigHeaded: {},
+	black: {},
+	bull: {},
+	carpenter: {},
+	crazy: {},
+	fire: {},
+	glider: {},
+	honeyPot: {},
+	jackJumper: {},
+	snarf: {}
+}
+
+// for (var i = 0; i < antSpecies.length; i++) {
+// 	console.log(antSpecies[i]);
+// }
+
+
+
+
+
+ // LOOPING THROUGH AN OBJECT!!!!!!!!
+  // LOOPING THROUGH AN OBJECT!!!!!!!!
+   // LOOPING THROUGH AN OBJECT!!!!!!!!
+    // LOOPING THROUGH AN OBJECT!!!!!!!!
+     // LOOPING THROUGH AN OBJECT!!!!!!!!
+      // LOOPING THROUGH AN OBJECT!!!!!!!!
+       // LOOPING THROUGH AN OBJECT!!!!!!!!
+
+
+
+
+
+for (var ant in antSpecies) {
+	console.log(ant);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
